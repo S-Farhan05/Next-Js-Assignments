@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  
+  }
+}
+/* Inline fold ext */
+body {
+  color: black;
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#Container{
+margin: 40px;
+background: rgba(207, 166, 166, 0.11);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ min-height: 2700px; /* just for last bottom margin made or else will have to format */
+display: block;
+max-width: 1600px;
+
+}
+.Top{
+  display: block
+}
+.Nav{
+  display: flex;
+  gap: 60px;
+  font-weight:600;
+  color: black;
+  justify-content: right;
+  padding-top: 40px;
+  padding-right:74px;
+  font-size: 22px;
+}
+.intro-cont{
+  margin-top: 165px;
+  margin-left: 230px;
+  max-width: 600px;
+ 
+}
+#intro{
+  color:  rgba(33, 36, 61, 1);
+  font-weight: 800;
+  font-size: 50px;
+  
+}
+#about{
+
+  display: block;
+  max-width: 550px;
+  font-size: 20px;
+  color:rgba(33, 36, 61, 1); 
+  padding-top: 30px;
+
+}
+#profile-img{
+  
+  position: absolute;
+  margin-left: 1050px;
+  height: 362px;
+  width:348px;
+  margin-top: 160px;
+  border-radius: 50%;
+  box-shadow: -7px 9px 4px 0 rgba(198, 178, 178, 0.6);
+ 
+}
+
+#Download{
+background: rgba(249, 133, 133, 1);
+color:  rgba(255, 255, 255, 1);
+margin-top: 40px;
+margin-left: 230px;
+padding: 15px;
+font-size: 20px;
+font-weight: 500;
+box-shadow: 0px 4px 4px 0px rgba(65, 65, 65, 0.54);
+}
+#Download p {
+  width: 215px;
+}
+#Post-sec{
+background:rgba(244, 226, 226, 1);
+min-height: 200px;
+margin-top: 150px;
+min-height: 570px;
+
+}
+#View{
+  padding-top: 26px;
+}
+#View b{
+  display: inline;
+  margin-left: 230px;
+  font-size: 24px;
+  font-weight: 550;
+ 
+  
+}
+#view-butt{
+padding-left: 695px;
+color: rgba(249, 133, 133, 1);
+
+
+
+
+}
+#recent{
+
+  color: black;
+ 
+
+}
+#sec{
+width: 550px;
+min-height: 420px;
+margin-left: 230px;
+display: inline-block;
+background-color: white;
+margin-top: 20px;
+/* vertical-align: top; */
+
+
+
+}
+
+ #sec1{
+  width: 550px;
+  min-height: 420px;
+  margin-left: 50px;
+  opacity: 0px;
+  display: inline-block;
+  background-color: white;
+  margin-top: 20px;
+  
+  } 
+#in-sec{
+padding-top: 38px;
+padding-left: 32px;
+
+}
+#in-sec h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: black
+
+  
+}
+#date{
+  color:  rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+  letter-spacing: 4%;
+  font-size: 22px;
+  padding-left: 32px;
+  padding-top: 20px;
+}
+
+#para{
+  padding-top: 30px;
+  padding-left: 32px;
+  font-size: 22px;
+  color:  rgba(33, 36, 61, 1);
+  font-weight: 400;
+
+}
+#feature{
+  margin-left: 230px;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 85px;
+}
+.Last-sec{
+  min-height: 320px;
+}
+#Last-sec-container{
+  display: flex;
+
+ 
+
+}
+#Last-sec-img{
+  margin-left: 230px;
+  padding-top: 32px;
+}
+#Last-sec-head{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 750;
+  font-size: 30px;
+  padding-top: 26px;
+  padding-left: 40px;
+}
+#icon-con{
+position: absolute;
+margin-left: 40px;
+padding-top: 10px;
+display: flex;
+
+}
+#icon{
+color: white;
+display: inline-block;
+background: rgba(249, 133, 133, 1);
+border-radius: 50px;
+width: 74px;
+text-align: center;
+justify-content: center;
+/* padding: 5px 20px; */
+font-size: 20px;
+
+}
+#icon-dash{
+color:  rgba(0, 0, 0, 0.62);
+margin-left: 25px;
+width: 68px;
+font-size: 20px;
+
+}
+#sec-par{
+margin-left: 40px;
+padding-top: 60px;
+max-width: 700px;
+font-size:20px ;
+color: rgba(0, 0, 0, 1);
+font-weight: 100;
+/* letter-spacing: 1px; */
+
+
+}
+#Icons-style{
+ display: flex;
+ flex-direction: row;
+ gap: 30px;
+justify-content: center;
+margin-top: 150px;
+}
+#icons{
+  color: rgba(33, 36, 61, 1);
+  font-size: 30px;
+}
+#Icons-style h1{
+ font-size: 22px;
+ color:  rgba(0, 0, 0, 1);
+ font-weight: 500;
+ 
+}
+#copy{
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
