@@ -25,7 +25,7 @@ body {
 #Container{
 margin: 40px;
 background: rgba(207, 166, 166, 0.11);
-margin: 0;
+margin: auto;
 padding: 0;
 box-sizing: border-box;
  min-height: 2700px; /* just for last bottom margin made or else will have to format */
