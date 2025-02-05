@@ -16,7 +16,7 @@ export default function Todo(){
      settasklist(tasklist.filter((_,i)=> i!==index));
   }
   return(
-    <div className="flex md:flex-col items-center justify-center md:mt-16 mt-8">
+    <div className="flex md:flex-col items-center justify-center md:mt-16 mt-8 text-white">
       <div className="bg-gray-700  md:w-[520px] md:pl-8 pl-2 md:text-xl text-lg h-auto w-max">
         <h1 className="md:-ml-8 text-center text-3xl">Get Things done</h1>
         <input className="bg-transparent border font-thin border-gray-300 rounded md:w-[350px] w-auto md:h-14 md:mt-10 placeholder: md:pl-2 mt-8" type="text" value={task} placeholder="What task do you have today ?" onChange={(e)=>handleAddTask(e)}></input>
